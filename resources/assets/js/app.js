@@ -22,10 +22,13 @@ Vue.use(FBSignInButton);
 
 /**
  * Facebook login.
+ * Todo add your own Facebook appid.
  */
+let facebookAppId = ;
+
 window.fbAsyncInit = function () {
     FB.init({
-        appId: 149315649017860,
+        appId: facebookAppId,
         cookie: true,
         xfml: true,
         version: 'v2.10'
