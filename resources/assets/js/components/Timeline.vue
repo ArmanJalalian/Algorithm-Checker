@@ -101,7 +101,7 @@
             let tArray = this.instagramData;
 
             //Todo add your own instagram access_token
-            let accessToken = "47431339.083b436.818b7ce469f2464bb7a4f8373ee50eb6";
+            let accessToken = "";
 
             //Get all tags from array stored in the parent.
             this.$parent.tagsArray.forEach(function (tags) {
